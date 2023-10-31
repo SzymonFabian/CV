@@ -9,7 +9,7 @@ def get_img_as_base64(file):
     return base64.b64encode(data).decode()
 
 
-img = get_img_as_base64(r"D:\HUKP\Desktop\Studia\DOKUMENTY\STRONA_CV\background.jpg")
+img = get_img_as_base64("background.jpg")
 
 page_bg_img = f"""
 <style>
@@ -28,7 +28,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
 
-with open("D:\HUKP\Desktop\Studia\DOKUMENTY\STRONA_CV\style.css") as f:
+with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
 ####################
@@ -38,7 +38,7 @@ st.write('''
 # Szymon Fabiański
 ''')
 
-image = Image.open(r'D:\HUKP\Desktop\Studia\DOKUMENTY\STRONA_CV\foto.png')
+image = Image.open('foto.png')
 st.image(image, width=200)
 
 
