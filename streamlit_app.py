@@ -133,8 +133,19 @@ st.markdown('''
 ## Doświadczenie zawodowe
 ''')
 
+txt('**Starszy Specjalista w Departamecie Analiz Ekonomicznych**',
+'12.2023 - obecnie')
+st.markdown('''
+- Pisanie publikacji (np. Dziennik Ekonomiczny),
+- Przygotowywanie narzędzi automatyzujących pracę w zespole
+- Scrapping danych,
+- Przygotowywanie średnio i długookresowych scenariuszowych analiz makroekonomicznych,
+- Przygotowywanie ekonomicznych analiz bieżących,
+
+''')
+
 txt('**Starszy Specjalista ds. Analiz Metodologicznych w Departamencie Polityki Makroekonomicznej**',
-'08.2023 - obecnie')
+'08.2023 - 11.2023')
 st.markdown('''
 - Budowanie narzędzi analitycznych (streamilt, R-shiny),
 - Współautor modelu makroekonomicznego NEMPF, służącego do przygotowanie prognoz dla gospodarki Polski (Eviews),
